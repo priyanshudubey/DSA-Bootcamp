@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int* insertArray(int arr[], int n, int x, int posn){
+int& insertArray(int arr[], int n, int x, int posn){
 	for(int i=n;i>=posn;i--){
 		arr[i] = arr[i-1];
 	}
