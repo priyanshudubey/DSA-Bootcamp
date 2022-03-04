@@ -10,7 +10,7 @@ int SearchUnsortedArray(int arr[], int n, int x){
 }
 
 int main(void){
-	int arr[12] = {1,2,3,4,5,6,7,8,9,10};
+	int arr[12] = {1,2,3,4,5,6,7,8,9,10, 11, 12 ,13};
 	int x = 2, n=10;
 	cout<<SearchUnsortedArray(arr,n,x);
 	return 0;
